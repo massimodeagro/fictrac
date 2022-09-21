@@ -56,7 +56,7 @@ The FicTrac source code can be built for both Windows and Linux (e.g. Ubuntu) op
         ```
         For Arch-based distros:
         ```
-        yay -S gcc git cmake curl unzip tar yasm pkgconf gtk2 libavresample ffmpeg opencv
+        yay -S gcc git cmake curl unzip tar yasm pkgconf gtk2 libavresample ffmpeg opencv vtk hdf5 glew openmpi fmt
         ```
     3. (Windows and Linux) Clone or download the [Vcpkg](https://github.com/Microsoft/vcpkg) repository and then follow the guide to install (make sure to perform the bootstrap and integration steps).
     4. Using Vcpkg, install remaining dependencies:
