@@ -50,8 +50,13 @@ The FicTrac source code can be built for both Windows and Linux (e.g. Ubuntu) op
         2. If you don't already have Visual Studio (C++ workflow) installed, you will need to install the [Build Tools for Visual Studio](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2019).
     2. Linux only:
         1. Run the following from terminal to install necessary build tools and dependencies:
+        For Debian-based distros:
         ```
         sudo apt-get install gcc g++ git cmake curl unzip tar yasm pkg-config libgtk2.0-dev libavformat-dev libavcodec-dev libavresample-dev libswscale-dev libopencv-dev
+        ```
+        For Arch-based distros:
+        ```
+        yay -S gcc git cmake curl unzip tar yasm pkgconf gtk2 libavresample ffmpeg opencv
         ```
     3. (Windows and Linux) Clone or download the [Vcpkg](https://github.com/Microsoft/vcpkg) repository and then follow the guide to install (make sure to perform the bootstrap and integration steps).
     4. Using Vcpkg, install remaining dependencies:
