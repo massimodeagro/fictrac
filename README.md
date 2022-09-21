@@ -66,7 +66,7 @@ The FicTrac source code can be built for both Windows and Linux (e.g. Ubuntu) op
 ```
 2. Clone or download the FicTrac repository, then navigate to that folder, open a terminal, and create a build directory:
 ```
-git clone https://github.com/rjdmoore/fictrac.git
+git clone https://github.com/massimodeagro/fictrac.git
 cd fictrac
 mkdir build
 cd build
